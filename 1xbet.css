@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    height: 70px;
+    align-items: center;
+    color:#FFF
+}
+.main .list{
+    display: flex; 
+}
+.main .list li{
+    list-style: none;
+}
+.main .list li a{
+    color:#FFF;
+    text-decoration: none;
+    padding:15px;
+    
+}
+.main .regi a{
+    background-color: green;
+    color:#FFF;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.main .log a{
+    color:#FFF;
+    text-decoration: none;
+    background-color: rgb(2, 2, 67);
+    padding:10px;
+}
+.main .time:hover{
+    background-color: rgb(2, 2, 67);
+    padding: 5px;
+}
+.main .us:hover{
+    background-color: rgb(2, 2, 67);
+    padding: 5px;
+}
+.main .phone:hover{
+    background-color: rgb(2, 2, 67);
+    padding: 5px;
+    font-size: 20px;
+}
+.main .ic:hover{
+    background-color: rgb(2, 2, 67);
+    padding: 5px;
+}.main .icon:hover{
+    background-color: rgb(2, 2, 67);
+    padding: 5px;
+    font-size: 20px;
+}
+.bonus{
+    display: flex;
+    justify-content: center;
+    background-color: #00f;
+    height: 600px;
+}
+.bonus .bonus1{
+    background-color: wheat;
+    border-right: 1px solid #00f;
+    height: 320px;
+}
+.bonus .bonus1 .bonu{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+.bonus .bonus1 .bonu:hover{
+    color:#fff;
+    background-color: rgb(15, 15, 124);
+}
+.bonus .bonus1 .bonu .icon{
+    font-size: 50px;
+}
+.bonus .bonus2{
+    background-color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    height: 500px;
+}
+.bonus2 .band .regis{
+    padding: 30px 0 10px 0;
+}
+.bonus .bonus2 .one{
+    display: flex;
+    /* background-color: rgb(98, 98, 216); */
+    margin:0 10px;
+    padding:20px 0;
+}
+.bonus .bonus2 .one li{
+    list-style: none;
+    margin:0 10px;
+    padding:20px;
+    background-color: rgb(98, 98, 216);
+    
+}
+.bonus .bonus2 .one li:hover{
+    background-color: rgb(15, 15, 124);
+
+}
+.bonus .bonus2 .one li a{
+    text-decoration: none;
+
+    color:#FFF;
+}
+.selects{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 0;
+}
+.selects .select1 select {
+    height: 30px;
+    width:200px;
+    text-align: center;
+    
+}
+.promo{
+    display: flex;
+    justify-content: space-around;
+    padding:30px 0;
+}
+.promo .promo1 input{
+    height: 30px;
+    width:200px; 
+    text-align: center;
+}
+.promo .promo2 input{
+    height: 30px;
+    width:200px;
+    color:#FFF;
+    background-color: green;
+    text-align: center;
+}
